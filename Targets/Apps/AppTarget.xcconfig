@@ -5,6 +5,8 @@
 //
 
 #include "../Target.xcconfig"
+#include "../../CodeSigning.xcconfig"
 
+CODE_SIGNING_REQUIRED = YES
 GCC_DYNAMIC_NO_PIC = NO
 SKIP_INSTALL = NO

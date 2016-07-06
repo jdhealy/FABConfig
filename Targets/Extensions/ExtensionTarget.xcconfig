@@ -5,3 +5,6 @@
 //
 
 #include "../Target.xcconfig"
+#include "../../CodeSigning.xcconfig"
+
+CODE_SIGNING_REQUIRED = YES

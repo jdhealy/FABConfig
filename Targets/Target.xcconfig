@@ -5,13 +5,14 @@
 //
 
 #include "../Architectures.xcconfig"
-#include "../CodeSigning.xcconfig"
 #include "../CompilerFeatures.xcconfig"
 #include "../CompilerWarnings.xcconfig"
 
 DEBUG_INFORMATION_FORMAT_Debug = dwarf
 DEBUG_INFORMATION_FORMAT_Release = dwarf-with-dsym
 DEBUG_INFORMATION_FORMAT = $(DEBUG_INFORMATION_FORMAT_$(CONFIGURATION))
+
+CODE_SIGNING_REQUIRED = NO
 
 ALWAYS_SEARCH_USER_PATHS = NO
 
